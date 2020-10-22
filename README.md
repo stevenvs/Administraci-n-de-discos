@@ -9,9 +9,9 @@
 
 **1. ¿Qué características tiene el formato de disco?**
 
-* MBR
+* MBR: Registro de Arranque Principal es usado para crear una tabla de particiones, tiene ciertas limitaciones, el tamaño máximo para poder trabajar son 2 TB, solo puede trabajar con 4 particiones primarias.
 
-* GPT
+* GPT  GPT sustituye al Master Boot Record (MBR) que se usaba en la BIOS, las particiones utiliza entradas de 64 bits para el direccionamiento,por lo que el tamaño máximo de cada partición es mayor y ofrece varios terabytes. todas las particiones obtienen un número de identificación, permiten detectar los sectores defectuosos que la dañan
 
 **2. En el video se creo un disco de 64000 GB (64 TB), en nuestro caso creamos  un nuevo disco de 10 GB en VirtualBox, tendrás que apagar la máquina virtual para poderlo crear.**
 
