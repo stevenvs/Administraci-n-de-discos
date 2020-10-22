@@ -9,8 +9,9 @@
 
 **1. ¿Qué características tiene el formato de disco?**
 
-MBR
-GPT
+* MBR
+
+* GPT
 
 **2. En el video se creo un disco de 64000 GB (64 TB), en nuestro caso creamos  un nuevo disco de 10 GB en VirtualBox, tendrás que apagar la máquina virtual para poderlo crear.**
 
