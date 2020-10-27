@@ -9,9 +9,9 @@
 
 **1. ¿Qué características tiene el formato de disco?**
 
-* MBR: Registro de Arranque Principal es usado para crear una tabla de particiones, tiene ciertas limitaciones, el tamaño máximo para poder trabajar son 2 TB, solo puede trabajar con 4 particiones primarias.
+* MBR: Registro de Arranque Maestro es usado para crear una tabla de particiones, tiene ciertas limitaciones, es usado para discos duros que tienen una capacidad menor de 2 TB y solo puede trabajar con 4 particiones primarias.
 
-* GPT  GPT sustituye al Master Boot Record (MBR) que se usaba en la BIOS, las particiones utiliza entradas de 64 bits para el direccionamiento,por lo que el tamaño máximo de cada partición es mayor y ofrece varios terabytes. todas las particiones obtienen un número de identificación, permiten detectar los sectores defectuosos que la dañan
+* GPT  GPT sustituye al MBR que se usaba en la BIOS, en las particiones utiliza entradas de 64 bits para el direccionamiento,por lo que esra pensado para discos de mayor capacidad el tamaño máximo de cada partición es mayor y ofrece varios terabytes
 
 **2. En el video se creo un disco de 64000 GB (64 TB), en nuestro caso creamos  un nuevo disco de 10 GB en VirtualBox, tendrás que apagar la máquina virtual para poderlo crear.**
 
@@ -20,6 +20,7 @@
 **3. Envía un pantallazo del administrador de discos en el que se vea el nuevo disco de 10GB y otro pantallazo desde el administrador de archivos donde se vean todos los HDs que tenemos**
 
 **4. Al formatear un disco duro (HD) ¿que 3 sistemas de archivos podemos usar?**
+FAT32 NTFS exFAT
 
 **5. Reduce el nuevo disco creado en 2000 MB, de esta forma tendremos 2 volumenes y formatea el nuevo con NTFS como el anterior, envia pantallazo desde el administrador de archivos.**
 
